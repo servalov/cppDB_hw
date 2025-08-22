@@ -43,7 +43,7 @@ INSERT INTO albums (id,title, year) VALUES
 (7,'Arrival', 1976),
 (8,'Super Trouper',1980),
 (9, 'Laundry Service',2001),
-(10, 'Deluxe', 2017),
+(10, 'Deluxe', 2020),
 (11, 'Об этом я буду кричать всю ночь', 1999),
 (12,'Маленькие девочки', 2001),
 (13, 'Thriller', 1982),
@@ -221,8 +221,3 @@ INSERT  INTO collection_tracks (id_track, id_collection) VALUES
 (34,5),
 (35,5),
 (36,5);
-
-
-DELETE FROM collection_tracks;
-DELETE FROM tracks;
-
